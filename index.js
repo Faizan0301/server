@@ -6,7 +6,7 @@ const reqHndler = (req, res) => {
     let fileName = ""
     switch (req.url) {
         case '/':
-            fileName = './home.html'
+            fileName = './index.html'
             break;
         case '/about':
             fileName = './about.html'
